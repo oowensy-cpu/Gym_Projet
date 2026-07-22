@@ -488,3 +488,60 @@ table tr:hover{
     box-shadow:0 15px 30px #7c04fd;
 
 }
+
+body{
+
+    background:#111;
+    color:white;
+    font-family:Arial;
+}
+
+
+.container{
+
+    width:400px;
+    margin:80px auto;
+    background:#222;
+    padding:30px;
+    border-radius:15px;
+}
+
+
+h1{
+
+    text-align:center;
+    color:#7c04fd;
+
+}
+
+
+form{
+
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+
+}
+
+
+input, select{
+
+    padding:15px;
+    border:none;
+    border-radius:8px;
+    background:#333;
+    color:white;
+
+}
+
+
+button{
+
+    padding:15px;
+    background:#7c04fd;
+    border:none;
+    border-radius:20px;
+    cursor:pointer;
+    font-size:18px;
+
+}
