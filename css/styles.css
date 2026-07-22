@@ -489,6 +489,51 @@ table tr:hover{
 
 }
 
+<<<<<<< HEAD
+
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    background-color: #000;
+}
+
+.gallery-item {
+    text-align: center;
+    background-color: #111;
+    border: 2px solid #6a0dad;
+    border-radius: 8px;
+    padding: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(106, 13, 173, 0.6);
+}
+
+.gallery-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+    border: 1px solid #6a0dad;
+}
+
+.gallery-item p {
+    margin-top: 8px;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.gallery-title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: #6a0dad;
+    margin-bottom: 20px;
+=======
 .contact{
 
     width:85%;
@@ -639,4 +684,5 @@ ul{
     flex-direction:column;
     text-align:center;
 
+>>>>>>> 739181093380e2247cdec47744b7370e6cf0fb72
 }
